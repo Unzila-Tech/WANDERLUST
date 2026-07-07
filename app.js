@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const path = require("path");
 const methodOverride = require("method-override");
-const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
+const MONGO_URL = "https://wanderlust-z2af.onrender.com";
 const ejsMate =require("ejs-mate");
 const expressError = require("./utils/expressError.js");
 
